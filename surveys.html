@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>성격유형 알아보기</title>
+</head>
+<body>
+    <header>
+    <h1>나의 숨겨진 성격 유형은?</h1>
+    <p>모든 항목에 빠짐없이 체크해주세요</p>
+    </header>
+    <hr>
+    <main>
+    <form>
+        <fieldset>
+            <legend>개인정보</legend>
+            <label for="name">이름</label>
+            <input type="text" 
+            name="name"
+            id="name" placeholder="본명을 입력하세요">
+            <br>
+            <p>성별</p>
+            <input type="radio" id="male" name="gender">
+            <label for="male">남자</label>
+            <input type="radio" id="female" name="gender">
+            <label for="twenty">여자</label>
+            <br>
+            <p>나이</p>
+            <input type="radio" id="teen" name="age">
+            <label for="teen">10대</label>
+            <input type="radio" id="twenty" name="age">
+            <label for="twenty">20대</label>
+            <input type="radio" id="thirty" name="age">
+            <label for="thirty">30대</label>
+            <input type="radio" id="fouty" name="age">
+            <label for="fourty">40대</label>
+            <input type="radio" id="fifty" name="age">
+            <label for="fifty">50대</label>
+            <input type="radio" id="other" name="age">
+            <label for="other">그 외</label>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>해당되는 항목을 클릭하세요</legend>
+            <p>1. 아침에 일어나서 가장 먼저 하는 일은?</p>
+            <input type="radio" id="answer1" name="question1">
+            <label for="answer1">A) 다시 눈 감고 5분 더 자기</label><br>
+            <input type="radio" id="answer2" name="question1">
+            <label for="answer2">B) 바로 휴대폰 확인하기</label><br>
+            <input type="radio" id="answer3" name="question1">
+            <label for="answer3">C) 샤워하거나 스트레칭하기</label><br>
+            <input type="radio" id="answer4" name="question1">
+            <label for="answer4">D) 맛있는 아침 준비하기</label><br>
+            <br><br>
+
+            <p>2. 초능력을 가질 수 있다면 무엇을 선택할까요?</p>
+            <input type="radio" id="answer1-2" name="question2">
+            <label for="answer1-2">A) 투명인간 되기</label><br>
+            <input type="radio" id="answer2-2" name="question2">
+            <label for="answer2-2">B) 순간이동하기</label><br>
+            <input type="radio" id="answer3-2" name="question2">
+            <label for="answer3-2">C) 시간 멈추기</label><br>
+            <input type="radio" id="answer4-2" name="question2">
+            <label for="answer4-2">D) 동물들과 대화하기</label><br>
+            <br><br>
+
+            <p>3. 여행 스타일은 어떤가요?</p>
+            <input type="radio" id="answer1-3" name="question3">
+            <label for="answer1-3">A) 계획 없이 즉흥적으로 떠나기</label><br>
+            <input type="radio" id="answer2-3" name="question3">
+            <label for="answer2-3">B) 완벽한 일정을 짜고 움직이기</label><br>
+            <input type="radio" id="answer3-3" name="question3">
+            <label for="answer3-3">C) 유명한 맛집 투어 중심으로 다니기</label><br>
+            <input type="radio" id="answer4-3" name="question3">
+            <label for="answer4-3">D) 느긋하게 자연 속에서 쉬기</label><br>
+            <br><br>
+
+            <p>4. 피자에 파인애플이 올라가도 괜찮나요?</p>
+            <input type="radio" id="answer1-4" name="question4">
+            <label for="answer1-4">A) 당연히 좋아요!</label><br>
+            <input type="radio" id="answer2-4" name="question4">
+            <label for="answer2-4">B) 절대 안 돼요!</label><br>
+            <input type="radio" id="answer3-4" name="question4">
+            <label for="answer3-4">C) 상관없어요, 먹을 수 있으면 OK!</label><br>
+            <br><br>
+
+            <p>5. 만약 하루 동안 동물로 변신할 수 있다면?</p>
+            <input type="radio" id="answer1-5" name="question5">
+            <label for="answer1-5">A) 날 수 있는 새</label><br>
+            <input type="radio" id="answer2-5" name="question5">
+            <label for="answer2-5">B) 귀여운 고양이</label><br>
+            <input type="radio" id="answer3-5" name="question5">
+            <label for="answer3-5">C) 용맹한 사자</label><br>
+            <input type="radio" id="answer4-5" name="question5">
+            <label for="answer4-5">D) 느긋한 팬더</label><br>
+            <br><br>
+            <p>6.주말에 하고 싶은 일은?(중복 선택 가능)</p>
+            <input type="checkbox" id="game" name="question6">
+            <label for="game">게임하기</label>
+            <input type="checkbox" id="watch" name="question6">
+            <label for="watch">드라마/영화 몰아보기</label>
+            <input type="checkbox" id="picnic" name="question6">
+            <label for="picnic">자연 속에서 산책하기</label>
+            <input type="checkbox" id="shopping" name="question6">
+            <label for="shopping">쇼핑하기</label>
+            <input type="checkbox" id="bed" name="question6">
+            <label for="bed">침대에서 뒹굴기</label>
+            <br><br>
+            <p>7.가장 좋아하는 동물을 적어주세요</p>
+            <textarea rows="3" cols="30" name="animals"></textarea>
+            <br>
+        </fieldset>
+        <input type="submit">
+    </form>
+    </main>
+    <hr>
+    <footer>
+    <p>결과는 나중에! 입력하느라 수고하셨습니다.<br>
+        나도 만드느라 수고했음! 선물은 뭘까요?
+    </p>
+    </footer>
+</body>
+</html>
